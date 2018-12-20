@@ -1,0 +1,46 @@
+/* for mobile */
+
+@media only screen and (max-width: 600px) {
+    body{
+        padding: .1rem;
+    }
+
+    #header{
+
+    }
+
+    .heading-primary--main {
+        font-size: 3rem;
+        font-weight: 650;
+        letter-spacing: 3.5rem;
+    }
+    .heading-primary--sab {
+        font-size: 3rem;
+        font-weight: 600;
+        letter-spacing: 2rem;
+    }
+ }
+    
+ /*for pc */
+ 
+ @media only screen and (min-width: 600px) {
+    body{
+        padding: 3rem;
+    }
+
+   #header{
+
+   }
+
+   .heading-primary--main {
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: 3.5rem;
+  }
+
+   .heading-primary--sab {
+    font-size: 4rem;
+    font-weight: 800;
+    letter-spacing: 2.5rem;
+  }
+ }

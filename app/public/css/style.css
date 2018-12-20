@@ -1,0 +1,122 @@
+*,
+*::after,
+*::before {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: inherit; 
+}
+
+html {
+    font-size: 62.5%; 
+}
+
+body {
+    box-sizing: border-box; 
+}
+
+
+
+
+
+
+
+
+body{
+
+}
+#header{
+    height: 95vh;
+    background-image: linear-gradient(to right bottom, rgba(255, 250, 243, 0.3), rgba(130, 135, 131, 0.4)), url("../img/43913221_2522542031305362_7291664536755232144_n(1).jpg");
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.header__logo-box {
+    position: absolute;
+    top: 9rem;
+    left: 47%; 
+    transform: translate(-50%, -50%);
+}
+
+.header__logo {
+    height: 15rem; 
+}
+
+.header__tex-box {
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    text-align: center; 
+}
+
+
+
+.heading-primary {
+    color: black;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+    margin-bottom: 6rem; 
+}
+.heading-primary--main {
+  display: block;
+  font-family: 'Charm', cursive;
+  font-family: 'Coustard', serif;
+  animation-name: moveInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  /*
+      animation-iteration-count: 3;    
+       animation-delay: 3s; */ 
+}
+.heading-primary--sab {
+  font-family: 'Charm', cursive;
+  font-family: 'Coustard', serif;
+  display: block;
+  animation: moveInRight 1s ease-in-out; 
+}
+
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: darkgrey;
+}
+
+.fixed{
+    position: fixed;
+    font-size: 20px;
+}
+
+
+
+@keyframes moveInLeft {
+    0% {
+      opacity: 0;
+      /* transform: translateX(-10rem)rotate(-180deg); */
+      transform: translateX(-10rem); }
+    /* 60%{
+          transform: scale(sx ,sy)
+      } */
+    80% {
+      transform: translateX(1rem); }
+    100% {
+      opacity: 1;
+      transform: translate(0); } 
+}
+  
+  @keyframes moveInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(1rem); }
+    80% {
+      transform: translateX(-1rem); }
+    100% {
+      opacity: 1;
+      transform: translate(0); } 
+
+
+}
