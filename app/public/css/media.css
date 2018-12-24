@@ -2,13 +2,42 @@
 
 @media only screen and (max-width: 600px) {
     body{
-        padding: .1rem;
+        padding: 0rem;
     }
 
     #header{
 
     }
+    .borderNav{
+        border: 1px solid rgb(121, 121, 121);
+        padding: 4%;
+        position: fixed;
+        top: 2rem;
+        margin-left: 80vw;
+        margin-bottom: 10px;
+        width: 15vw;
+        height: 15vw;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 50%;
+    }
+    .navLines{
+        width: 3rem;
+        height: 2px;
+        background-color: black;
+        margin: 5px auto 6px -2px;
+    }
 
+    .main{
+        /* margin-top: 100vh; */
+        min-height: 100vh;
+        background-color: black;
+        background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../img/41698661_2173692026226361_6908074739207112943_n.jpg");
+        background-repeat: no-repeat ;
+        background-size: auto;
+        /* background-position: center; */
+        /* position: relative; */
+        /* background-attachment: fixed; */
+    }
     .heading-primary--main {
         font-size: 3rem;
         font-weight: 650;
@@ -17,7 +46,24 @@
     .heading-primary--sab {
         font-size: 3rem;
         font-weight: 600;
-        letter-spacing: 2rem;
+        letter-spacing: 1.5rem;
+    }
+    .header__logo-box__scroll{
+        z-index: 99;
+        position: fixed;
+        top: 1.3rem;
+        left: 0%; 
+    }
+    .header__logo__scroll{
+        height: 7rem;
+    }
+
+    .about{
+        min-height: 40vh;
+    }
+    
+    .aboutContant{
+
     }
  }
     
@@ -31,6 +77,16 @@
    #header{
 
    }
+
+   .main{
+    min-height: 100vh;
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url( '../img/imageedit_2_7938842423.jpg');
+    background-repeat: no-repeat ;
+    background-size: auto;
+    background-position: center;
+    /* position: relative; */
+    background-attachment: fixed;
+}
 
    .heading-primary--main {
     font-size: 4rem;

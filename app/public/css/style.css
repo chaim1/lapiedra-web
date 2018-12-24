@@ -10,8 +10,26 @@ html {
     font-size: 62.5%; 
 }
 
+.whiteColor{
+    color: white;
+    /* color: black; */
+}
+.darkColor{
+    color: black;
+}
+
+.backgroundDark{
+    background-color: rgba(255, 255, 255, 0.6)
+
+}
+.textCenter{
+    text-align: center;
+}
+
+
+
 body {
-    box-sizing: border-box; 
+    /* box-sizing: border-box;  */
 }
 
 
@@ -25,12 +43,19 @@ body{
 
 }
 #header{
-    height: 95vh;
+    z-index: 1;
+
+    height: 100vh;
     background-image: linear-gradient(to right bottom, rgba(255, 250, 243, 0.3), rgba(130, 135, 131, 0.4)), url("../img/43913221_2522542031305362_7291664536755232144_n(1).jpg");
-    background-repeat: no-repeat ;
+    background-repeat: repeat ;
     background-size: cover;
     background-position: center;
-    position: relative;
+    /* position: absolute;
+    top: 100px;
+    left: 50vw; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-attachment: fixed;
 }
 
@@ -81,9 +106,64 @@ body{
 
 
 .main{
-    width: 100vw;
-    height: 100vh;
-    background-color: darkgrey;
+
+}
+
+.header__title{
+    padding-top: 5vh;
+}
+
+.LineHeaderTitle{
+    width: 25vw;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.sub__title{
+    padding-top: 3vh;
+}
+
+.LineHeaderSubTitle{
+    width: 90vw;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.ItemContent{
+    min-height: 20vh;
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.281);
+    margin: 10vw 10vw 0 10vw ;
+}
+
+
+.headerContentMenu{
+    padding: 2vh;
+}
+
+.ContentMenu{
+    float: right;
+    margin-right: 4vw;
+    direction: rtl;
+}
+
+
+.clearFloat{
+    clear: both;
+}
+
+.price{
+     padding: 5vw;
+}
+
+.about{
+    padding: 5vh;
+    background-color: black;
+}
+
+.aboutContant{
+    color: rgb(167, 164, 164);
 }
 
 .fixed{
