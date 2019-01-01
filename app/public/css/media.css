@@ -9,11 +9,12 @@
 
     }
     .borderNav{
+        z-index: 99;
         border: 1px solid rgb(121, 121, 121);
         padding: 4%;
         position: fixed;
         top: 2rem;
-        margin-left: 80vw;
+        margin-left: 33rem;
         margin-bottom: 10px;
         width: 15vw;
         height: 15vw;
@@ -35,8 +36,8 @@
         background-repeat: no-repeat ;
         background-size: auto;
         /* background-position: center; */
-        /* position: relative; */
-        /* background-attachment: fixed; */
+        /* position: absolute; */
+        background-attachment: fixed;
     }
     .heading-primary--main {
         font-size: 3rem;
@@ -79,6 +80,7 @@
    }
 
    .main{
+    z-index: 99;   
     min-height: 100vh;
     background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url( '../img/imageedit_2_7938842423.jpg');
     background-repeat: no-repeat ;

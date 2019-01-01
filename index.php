@@ -14,7 +14,7 @@
 </head>
 <body>
     <header class="" id="header">
-        <div class="borderNav">
+        <div  class="borderNav">
             <div class="navLines"></div>
             <div class="navLines"></div>
             <div class="navLines"></div>
@@ -32,7 +32,7 @@
             <h1 class="heading-primary">
                 <span class="heading-primary--main">the </span>
                 <span class="heading-primary--main"> pizza</span>
-                <span class="heading-primary--sab"> expernse</span>
+                <span class="heading-primary--sab"> experience</span>
             </h1>
         </div>
     </header>
